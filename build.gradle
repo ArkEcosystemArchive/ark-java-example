@@ -25,7 +25,7 @@ repositories {
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     compile 'com.google.guava:guava:20.0'
-    compile 'io.ark.lite:client:0.1'
+    compile 'io.ark.lite:client:0.3'
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
