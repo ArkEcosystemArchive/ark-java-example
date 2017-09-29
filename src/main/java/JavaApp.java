@@ -1,6 +1,9 @@
 import io.ark.core.*;
 
-public class App
+/**
+ * An example of a Java App using the ark-java library
+ */
+public class JavaApp
 {
     private static final String PASSPHRASE = "this is a top secret passphrase";
     private static final String GREETING = "Welcome to the ARK Java Example";
@@ -28,7 +31,7 @@ public class App
 
     public static Transaction createDummyTransaction(String passphrase)
     {
-        return Transaction.createTransaction("AN7BURQn5oqBRBADeWhmmUMJGQTy5Seey3", 100000000000l, "vendorField", passphrase);
+        return Transaction.createTransaction("AN7BURQn5oqBRBADeWhmmUMJGQTy5Seey3", 100000000000L, "vendorField", passphrase);
     }
 
     /**
